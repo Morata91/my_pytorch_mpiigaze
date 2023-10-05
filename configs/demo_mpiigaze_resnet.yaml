@@ -3,7 +3,7 @@ device: cpu
 model:
   name: resnet_preact
 gaze_estimator:
-  checkpoint: data/models/mpiigaze/resnet_preact/model.pth
+  checkpoint: experiments/mpiigaze/resnet_preact/exp00/00/checkpoint_0040.pth
   camera_params: data/calib/sample_params.yaml
   normalized_camera_params: data/calib/normalized_camera_params_eye.yaml
   normalized_camera_distance: 0.6
